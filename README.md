@@ -1,1 +1,2 @@
 # neurobridge2025.github.io
+NeuroAdapt is an AI-driven platform designed to support neurodivergent adults by reducing cognitive overload and enabling adaptive, personalised environments. Starting as a software solution, NeuroAdapt learns individual sensory and behavioural patterns to provide real-time guidance, structure, and environmental adjustments. The platform is built with a neurodivergent-first approach, grounded in lived experience and data-driven design.
