@@ -2,171 +2,98 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NeuroAdapt | Adaptive AI</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Arial, sans-serif;
-      margin: 0;
-      background: #ffffff;
-      color: #111;
-      line-height: 1.6;
-    }
-    nav {
-      position: sticky;
-      top: 0;
-      background: rgba(255, 255, 255, 0.9);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid #eee;
-      padding: 15px 30px;
-      display: flex;
-      gap: 20px;
-      z-index: 10;
-    }
-    nav a {
-      text-decoration: none;
-      color: #111;
-      font-weight: 500;
-      font-size: 14px;
-    }
-    nav a:hover {
-      color: #007aff;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 80px 20px;
-    }
-    h1 {
-      font-size: 56px;
-      letter-spacing: -1px;
-      margin-bottom: 20px;
-    }
-    h2 {
-      margin-top: 80px;
-      font-size: 32px;
-      border-bottom: 1px solid #eee;
-      padding-bottom: 10px;
-    }
-    h3 {
-      font-size: 22px;
-      margin-top: 0;
-    }
-    .tagline {
-      font-size: 24px;
-      color: #666;
-      max-width: 800px;
-      margin-bottom: 40px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 25px;
-      margin-top: 40px;
-    }
-    .card {
-      border: 1px solid #eee;
-      border-radius: 16px;
-      padding: 30px;
-      background: #fff;
-      transition: transform 0.2s;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-      border-color: #007aff;
-    }
-    .highlight {
-      background: #fbfbfd;
-      border-radius: 20px;
-      padding: 40px;
-      margin-top: 40px;
-      border: 1px solid #eee;
-    }
-    .img-placeholder {
-      width: 100%;
-      height: 300px;
-      background: #e5e5e7;
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #8e8e93;
-      font-weight: 500;
-      margin: 20px 0;
-      text-align: center;
-      padding: 20px;
-      box-sizing: border-box;
-    }
-    .founder-img {
-      width: 150px;
-      height: 150px;
-      background: #e5e5e7;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #8e8e93;
-      margin-bottom: 20px;
-    }
-    footer {
-      margin: 100px 0 40px;
-      font-size: 14px;
-      color: #888;
-      text-align: center;
-    }
-    strong { color: #007aff; }
-  </style>
+  <title>NeuroAdapt — AI for Neurodivergent Adults</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+<header class="nav">
+  <div class="logo">NeuroAdapt</div>
+  <nav>
+    <a href="#product">Product</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-<nav>
-  <a href="#product">Product</a>
-  <a href="#mvp">MVP</a>
-  <a href="#roadmap">Roadmap</a>
-  <a href="#traction">Traction</a>
-  <a href="#team">Team</a>
-</nav>
+<section class="hero">
+  <h1>The Future Is Neuroadaptive</h1>
+  <p>AI-powered adaptive environments for neurodivergent adults.</p>
+  <a class="cta" href="#contact">Request Pitch Deck</a>
+</section>
 
-<div class="container">
-
-  <h1>NeuroAdapt</h1>
-  <p class="tagline">
-    Adaptive AI platform designed to support neurodivergent adults by reducing cognitive overload.
-  </p>
-
-  <h2>The Problem</h2>
-  <p>
-    Autistic and neurodivergent adults often face sensory overload and limited access to adaptive environments. Existing tools are reactive and rarely designed with neurodivergent-first principles.
-  </p>
-
-  <h2 id="product">The Solution</h2>
-  <p>
-    NeuroAdapt builds adaptive systems that personalise environments in real time using AI, learning individual sensory and behavioural patterns.
-  </p>
-
+<section id="product" class="section">
+  <h2>Product</h2>
   <div class="grid">
-    <div class="card">
-      <h3>Personalised Adaptation</h3>
-      <p>AI models adjust prompts, routines, and sensory inputs based on individual needs.</p>
-    </div>
-    <div class="card">
-      <h3>Neurodivergent-First</h3>
-      <p>Built with direct input from lived experience, not retrofitted later.</p>
+    <img src="assets/app.png" alt="NeuroAdapt App">
+    <div>
+      <h3>Software-first MVP</h3>
+      <p>
+        NeuroAdapt learns individual sensory and behavioural patterns to reduce
+        cognitive overload and support daily functioning in real time.
+      </p>
+      <ul>
+        <li>Personalised routines & transitions</li>
+        <li>Adaptive prompts</li>
+        <li>Scalable AI architecture</li>
+      </ul>
     </div>
   </div>
+</section>
 
-  <h2 id="mvp">MVP</h2>
-  <div class="highlight">
-    <h3>Functional Prototype</h3>
-    <p>Early software-based adaptive assistant developed during the AI’preneur Accelerator.</p>
-    <div class="img-placeholder">
-       [ Image: MVP Mobile Interface Prototype ]
-    </div>
-  </div>
-
-  <h2 id="roadmap">Roadmap</h2>
-  <div class="grid">
+<section id="roadmap" class="section dark">
+  <h2>Roadmap</h2>
+  <div class="cards">
     <div class="card">
       <h3>Phase 1</h3>
-      <p
+      <p>Software MVP (completed)</p>
+    </div>
+    <div class="card">
+      <h3>Phase 2</h3>
+      <p>Smart speaker — adaptive environment</p>
+    </div>
+    <div class="card">
+      <h3>Phase 3</h3>
+      <p>Wearable bracelet — biometric signals</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Traction</h2>
+  <p>
+    AI’preneur Accelerator — Astana Hub<br>
+    Functional MVP delivered in 2 months<br>
+    Demo Day presentation<br>
+    <strong>$20,000 raised</strong>
+  </p>
+</section>
+
+<section id="team" class="section dark">
+  <h2>Team</h2>
+  <div class="grid">
+    <img src="assets/founder.jpg" alt="Founder">
+    <div>
+      <h3>Alina — Founder</h3>
+      <p>
+        Background in Big Four and National Wealth Fund.
+        Neurodivergent founder building inclusive AI solutions from lived experience.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p>For investors and partners:</p>
+  <p><strong>email@neuroadapt.app</strong></p>
+</section>
+
+<footer>
+  © 2026 NeuroAdapt
+</footer>
+</body>
+</html>
